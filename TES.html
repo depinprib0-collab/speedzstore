@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Belajar Coding</title>
+    <style>
+        body {
+            background-color: hsl(73, 99%, 49%); /* warna abu muda untuk latar belakang */
+        font-family: sans-serif; /* jenis font sans-serif */
+
+        text-align: center; /*teks rata tengah */
+        }
+        h1 {
+            color :rgb(253, 4, 4); /* warna biru untuk judul */
+        }
+        
+        /* Efek teks berjalan */
+        .teks-berjalan {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: berjalan 20s linear infinite;
+        }
+        
+        @keyframes berjalan {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        
+        /* Styling tombol WhatsApp */
+        .btn-whatsapp {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .btn-whatsapp:hover {
+            background-color: #20BA5A;
+        }
+    </style>
+</head>
+<body></body>
+
+<h1>Selamat Datang!</h1>
+<p class="teks-berjalan">hi i'm speedz store.</p>
+<a href="https://wa.me/6282283202451" class="btn-whatsapp" target="_blank">💬 Hubungi WhatsApp</a>
+
+</body>
+</html>
